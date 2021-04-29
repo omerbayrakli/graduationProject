@@ -1,0 +1,81 @@
+﻿@model Entities.Concrete.User
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+    <link href="~/css/login.css" rel="stylesheet" />
+    <title>Register</title>
+</head>
+<body>
+
+
+
+    <div main="register-form">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <div class="card">
+                        <div class="card-header"> Kayıt Ol </div>
+
+                        <div class="card-body">
+                            <form asp-action="Register">
+                                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                                <!--database e id den ekleme yağılmadığı için otomatik olarak burayı yotum saturuna aldım.-->
+                                @*<div class="form-group">
+                                        <label asp-for="UserId" class="control-label"></label>
+                                        <input asp-for="UserId" class="form-control" />
+                                        <span asp-validation-for="UserId" class="text-danger"></span>
+                                    </div>*@
+                                <div class="form-group">
+                                    <label asp-for="Username" class="control-label">Kullanıcı Adı</label>
+                                    <input asp-for="Username" placeholder="Username" class="form-control" />
+                                    <span asp-validation-for="Username" class="text-danger"></span>
+                                </div>
+                                <div class="form-group">
+                                    <label asp-for="Password" class="control-label">Şifre</label>
+                                    <input asp-for="Password" placeholder="Password" class="form-control" />
+                                    <span asp-validation-for="Password" class="text-danger"></span>
+                                </div>
+
+                                <div class="form-group">
+                                    <label>@ViewBag.SuccessMessage</label>
+                                </div>
+                                <div class="form-group">
+                                    <input type="submit" value="Kayıt Ol" class="btn btn-primary" />
+                                </div>
+
+
+                            </form>
+                            <div>
+                                <a asp-action="Login">Giriş Ekranına Geri Dön</a>
+                            </div>
+
+
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">var title = document.title;
+        var altTitle = "EVDEKAL";
+        window.onblur = function () { this.document.title = this.altTitle; };
+        window.onfocus = function () { this.document.title = this.title; };</script>
+
+    @section Scripts{
+        @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    }
+
+</body>
+</html>

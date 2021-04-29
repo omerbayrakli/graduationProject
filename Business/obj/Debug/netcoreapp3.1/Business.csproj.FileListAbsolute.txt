@@ -1,0 +1,15 @@
+C:\Users\ASUS\Desktop\ExampleLayeredProject-master\ExampleLayeredProject-master\Business\bin\Debug\netcoreapp3.1\Business.deps.json
+C:\Users\ASUS\Desktop\ExampleLayeredProject-master\ExampleLayeredProject-master\Business\bin\Debug\netcoreapp3.1\Business.dll
+C:\Users\ASUS\Desktop\ExampleLayeredProject-master\ExampleLayeredProject-master\Business\bin\Debug\netcoreapp3.1\Business.pdb
+C:\Users\ASUS\Desktop\ExampleLayeredProject-master\ExampleLayeredProject-master\Business\bin\Debug\netcoreapp3.1\Core.dll
+C:\Users\ASUS\Desktop\ExampleLayeredProject-master\ExampleLayeredProject-master\Business\bin\Debug\netcoreapp3.1\DataAccess.dll
+C:\Users\ASUS\Desktop\ExampleLayeredProject-master\ExampleLayeredProject-master\Business\bin\Debug\netcoreapp3.1\Entities.dll
+C:\Users\ASUS\Desktop\ExampleLayeredProject-master\ExampleLayeredProject-master\Business\bin\Debug\netcoreapp3.1\DataAccess.pdb
+C:\Users\ASUS\Desktop\ExampleLayeredProject-master\ExampleLayeredProject-master\Business\bin\Debug\netcoreapp3.1\Entities.pdb
+C:\Users\ASUS\Desktop\ExampleLayeredProject-master\ExampleLayeredProject-master\Business\bin\Debug\netcoreapp3.1\Core.pdb
+C:\Users\ASUS\Desktop\ExampleLayeredProject-master\ExampleLayeredProject-master\Business\obj\Debug\netcoreapp3.1\Business.csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\ExampleLayeredProject-master\ExampleLayeredProject-master\Business\obj\Debug\netcoreapp3.1\Business.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\ExampleLayeredProject-master\ExampleLayeredProject-master\Business\obj\Debug\netcoreapp3.1\Business.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\ExampleLayeredProject-master\ExampleLayeredProject-master\Business\obj\Debug\netcoreapp3.1\Business.csproj.CopyComplete
+C:\Users\ASUS\Desktop\ExampleLayeredProject-master\ExampleLayeredProject-master\Business\obj\Debug\netcoreapp3.1\Business.dll
+C:\Users\ASUS\Desktop\ExampleLayeredProject-master\ExampleLayeredProject-master\Business\obj\Debug\netcoreapp3.1\Business.pdb
